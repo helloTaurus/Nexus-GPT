@@ -1,0 +1,31 @@
+[
+  {
+    "id": "usr-superadmin-01",
+    "email": "admin@nexusfinance.ng",
+    "passwordHash": "$scrypt$N=16384,r=8,p=1$2b1c2264f2207ceb0a6fa5c85c4e5692$0ace7ebc57a2d9fd149221b47731f715b45df643bc8d903366fd064e43ed2577be5cc7b0762174db9579d31d53f9b6d44a067db5c86489cf4fab527a38e28c0f",
+    "role": "ADMIN",
+    "status": "ACTIVE",
+    "profile": {
+      "id": "emp-superadmin-01",
+      "staffId": "NX-ADM-0001",
+      "firstName": "Super",
+      "lastName": "Administrator",
+      "gender": "PREFER_NOT_TO_SAY",
+      "phone": "+2348000000000",
+      "residentialAddress": "Nexus Executive Suite, Victoria Island, Lagos",
+      "departmentId": "dept-exec",
+      "department": "Executive Governance",
+      "designationId": "des-md",
+      "designation": "HR & System Admin - Executive Chamber",
+      "managerId": null,
+      "employmentType": "FULL_TIME",
+      "hireDate": "2026-01-01",
+      "emergencyContactName": "Nexus Governance Council",
+      "emergencyContactPhone": "+2348000000000",
+      "emergencyContactRelationship": "Executive Board",
+      "bankName": "Nexus Central Treasury",
+      "bankAccountNumber": "0000000000",
+      "bankAccountName": "Super Administrator"
+    }
+  }
+]

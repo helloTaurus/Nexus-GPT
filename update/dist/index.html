@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      // Apply the theme before first paint to avoid a flash of the wrong palette.
+      try {
+        const savedTheme = localStorage.getItem('nexus-theme');
+        const theme = savedTheme === 'light' || savedTheme === 'dark' ? savedTheme : (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.classList.add(theme);
+        document.documentElement.style.colorScheme = theme;
+      } catch { document.documentElement.classList.add('light'); }
+    </script>
+    <title>Nexus Finance — Modern Banking &amp; Lending Solutions</title>
+    <meta name="description" content="Next-generation financial services delivering fast, accessible loans, asset-backed liquidity, and high-yield wealth management across Nigeria." />
+    <meta property="og:title" content="Nexus Finance — Modern Banking &amp; Lending Solutions" />
+    <meta property="og:description" content="Next-generation financial services delivering fast, accessible loans, asset-backed liquidity, and high-yield wealth management across Nigeria." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" />
+    <script type="module" crossorigin src="./assets/index-8tFIUBBV.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-umb8STl6.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
+

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "settings",
+    "fiscalYear": 2026,
+    "maxCarryOverAnnualLeave": 5,
+    "receiptEnforcementThresholdNGN": 5000,
+    "expenseManagerThresholdNGN": 50000,
+    "expenseExecutiveThresholdNGN": 250000
+  }
+]
